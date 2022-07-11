@@ -1,5 +1,5 @@
 home__bg{
-    background-image:url(file:///home/kushagra/Documents/kussu.jpg) ;
+    /* background-image:url(file:///home/kushagra/Documents/kussu.jpg) ; */
     /* background-image: url(file:///home/kushagra/Documents/projects/react/project-5/resume/src/img/kussu.jpg); */
     
     /* backgound-image: url("file:///home/kushagra/Documents/projects/react/project-5/resume/src/img/kush.jpg"); */
@@ -21,7 +21,7 @@ home__bg{
     background-size: cover;
     background-color: black;
     top: -370px;
-    left: 70px;
+    left: 20px;
     bottom: 25px;
     width: 20px;
     height: 20px;
@@ -85,9 +85,13 @@ h4.home__text{
 .toggle__menu {
     display: flex;
     justify-content: flex-end;
-    float: right;
+    float: left;
     z-index: 1000;
     width: 100%;
+}
+
+ul.navbar d__flex{
+    right:0%;
 }
 ul.sidebar.d__flex {
     flex-wrap: wrap;

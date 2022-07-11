@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/about.jpg";
+import aboutImg from "./img/photo1.jpeg";
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -12,7 +12,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img src={aboutImg} alt="" className="about__img"  height="670px" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>

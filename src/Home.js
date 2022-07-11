@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Home.css";
 import logo from './img/prey.png'
-// import bimage from './img/round2.png'
+import bimage from './img/kussu5-modified.png'
 
 function Home() {
   // fixed Header
@@ -39,45 +39,9 @@ function Home() {
               </a>
             </ul>
           </div>
+          </div>
           {/* Toogle Menu */}
-          <div className="toggle__menu">
-            <svg onClick={() => setShow(!show)}
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-justify white pointer"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
-          </div>
-          {show ?(
-          <div className="sideNavbar">
-              <ul className="sidebar d__flex">
-              <li className="sideNavbar">
-              <a href="#home">Home</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#about">About</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#services">Services</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#portfolio">Portfolio</a>
-            </li>
-           
-            <li className="sideNavbar">
-              <a href="#contact">Contact</a>
-            </li>
-              </ul>
-          </div>
-           ) : null}
-        </div>
+         
         {/* HOME CONTENT */}
         <div className="container">
           <div className="home__content">
@@ -86,7 +50,7 @@ function Home() {
               <h2 className="home__text pz__10">Hi, I’m Kushagra gupta</h2>
               <h3 className="home__text sweet pz__10">JS Developer.</h3>
               <h4 className="home__text pz__10">based in India.</h4>
-              {/* <div className="b-image"><img src={bimage} height="400px" width="400px" alt="" /></div> */}
+              <div className="b-image"><img src={bimage} height="400px" width="400px" alt="" /></div>
             </div>
           </div>
         </div>
